@@ -497,8 +497,8 @@ def RandomWiki():
     unmodified = plist[index]
     filtered = Filter(unmodified)
     
-    print('\n\nunmodified: ',unmodified)
-    print(plist)
+    #print('\n\nunmodified: ',unmodified)
+    #print(plist)
     ListenQuiz(unmodified,filtered)
     input('press <enter> to return to menu')
     Menu()
